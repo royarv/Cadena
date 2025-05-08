@@ -7,6 +7,10 @@ public class Cadena{
         System.out.println("Escribe tu nombre");
         String nombre = almacenar.nextLine();
 
+        System.out.println("Escribe tu Apellido");
+        String apellido = almacenar.nextLine();
+
         System.out.println("Tu nombre es: " +nombre);
+        System.out.println("Tu apellido es: " +apellido);
     }
 }
